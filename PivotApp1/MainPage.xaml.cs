@@ -31,10 +31,7 @@ namespace PivotApp1
         // Load data for the ViewModel Items
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            BitmapImage imgSource =
-             new BitmapImage(new Uri("/PivotApp1;/image/bg.png"));
-            bg.ImageSource = null;
-            bg.ImageSource = imgSource;
+            
             if (!App.ViewModel.IsDataLoaded)
             {
                 App.ViewModel.LoadData();

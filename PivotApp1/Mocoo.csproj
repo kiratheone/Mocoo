@@ -63,9 +63,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CategoriSearch.xaml.cs">
-      <DependentUpon>CategoriSearch.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -74,6 +71,12 @@
     </Compile>
     <Compile Include="Favorite.xaml.cs">
       <DependentUpon>Favorite.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Result.xaml.cs">
+      <DependentUpon>Result.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResult.xaml.cs">
+      <DependentUpon>SearchResult.xaml</DependentUpon>
     </Compile>
     <Compile Include="SinglePage.xaml.cs">
       <DependentUpon>SinglePage.xaml</DependentUpon>
@@ -90,10 +93,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
-    <Page Include="CategoriSearch.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -107,6 +106,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Favorite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Result.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SearchResult.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
