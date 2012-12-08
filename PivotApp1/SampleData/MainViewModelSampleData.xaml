@@ -5,7 +5,7 @@
     SampleProperty="Sample Text Property Value">
     
     <local:MainViewModel.Items>
-        <local:ItemViewModel LineOne="design one" LineTwo="Maecenas praesent accumsan bibendum" LineThree="Maecenas praesent accumsan bibendum" LineFour="/image/img1.jpg"/>
+        <local:ItemViewModel LineOne="design one" LineTwo="Maecenas praesent accumsan bibendum blabla bla" LineThree="Maecenas praesent accumsan bibendum" LineFour="/image/img1.jpg"/>
         <local:ItemViewModel LineOne="design two" LineTwo="Dictumst eleifend facilisi faucibus" LineThree="Maecenas praesent accumsan bibendum" LineFour="/image/img1.jpg"/>
         <local:ItemViewModel LineOne="design three" LineTwo="Habitant inceptos interdum lobortis" LineThree="Maecenas praesent accumsan bibendum" LineFour="/image/img1.jpg"/>
         <local:ItemViewModel LineOne="design four" LineTwo="Nascetur pharetra placerat pulvinar" LineThree="Maecenas praesent accumsan bibendum" LineFour="/image/img1.jpg" />
