@@ -1,0 +1,16 @@
+﻿<local:MainViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:PivotApp1" 
+    SampleProperty="Sample Text Property Value">
+    
+    <local:MainViewModel.Items>
+        <local:ItemViewModel LineOne="design one" LineTwo="Maecenas praesent accumsan bibendum" LineThree="Maecenas praesent accumsan bibendum" LineFour="/image/img1.jpg"/>
+        <local:ItemViewModel LineOne="design two" LineTwo="Dictumst eleifend facilisi faucibus" LineThree="Maecenas praesent accumsan bibendum" LineFour="/image/img1.jpg"/>
+        <local:ItemViewModel LineOne="design three" LineTwo="Habitant inceptos interdum lobortis" LineThree="Maecenas praesent accumsan bibendum" LineFour="/image/img1.jpg"/>
+        <local:ItemViewModel LineOne="design four" LineTwo="Nascetur pharetra placerat pulvinar" LineThree="Maecenas praesent accumsan bibendum" LineFour="/image/img1.jpg" />
+        <local:ItemViewModel LineOne="design five" LineTwo="Sagittis senectus sociosqu suscipit" LineThree="Maecenas praesent accumsan bibendum" LineFour="/image/img1.jpg"/>
+        <local:ItemViewModel LineOne="design six" LineTwo="Torquent ultrices vehicula volutpat" LineThree="Maecenas praesent accumsan bibendum" LineFour="/image/img1.jpg"/>
+    </local:MainViewModel.Items>
+    
+</local:MainViewModel>
