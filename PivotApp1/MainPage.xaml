@@ -26,7 +26,7 @@
         </Grid.RowDefinitions>
         
         <!--Pivot Control-->
-        <controls:Pivot Title="MOCOO" Margin="-3,-27,3,27" Grid.ColumnSpan="2" Grid.RowSpan="2">
+        <controls:Pivot Title="MOCOO" Margin="-3,0,3,0" Grid.ColumnSpan="2" Grid.RowSpan="2">
             <controls:Pivot.Background>
             <ImageBrush x:Uid="bg" ImageSource="/image/bg.png"></ImageBrush>
             </controls:Pivot.Background>

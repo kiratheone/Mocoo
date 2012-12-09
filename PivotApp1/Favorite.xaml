@@ -15,7 +15,7 @@
     shell:SystemTray.IsVisible="True">
 
     <!--Data context is set to sample data above and LayoutRoot contains the root grid where all other page content is placed-->
-    <Grid x:Name="LayoutRoot" Margin="0,-31,0,0" >
+    <Grid x:Name="LayoutRoot" Margin="0,0,0,0" >
         <Grid.Background>
             <ImageBrush ImageSource="/image/bg.png"></ImageBrush>
         </Grid.Background>
