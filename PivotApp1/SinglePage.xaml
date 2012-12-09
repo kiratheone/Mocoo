@@ -33,10 +33,10 @@
 
         <!--ContentPanel contains details text. Place additional content here-->
         <StackPanel x:Name="ContentPanel" Grid.Row="1" Margin="14,0,10,0">
-            <Image Source="{Binding LineFour}" Width="150" Height="150" HorizontalAlignment="Center" Margin="0,20"/>
-            <StackPanel x:Name="Resep" HorizontalAlignment="Center" Margin="75,150,75,0" Height="271" VerticalAlignment="Center" Width="362">
-                <TextBlock Text="{Binding LineOne}" Foreground="Black"/>
-                <TextBlock Text="{Binding LineTwo}" Foreground="Black" Height="244" MaxWidth="362" TextWrapping="Wrap" Margin="10,0,20,0"/>
+            <Image Source="{Binding LineFour}" Width="200" Height="200" HorizontalAlignment="Center" Margin="0,20"/>
+            <StackPanel x:Name="Resep" HorizontalAlignment="Center" Margin="53,40,75,0" Height="271" VerticalAlignment="Center" Width="362">
+                <TextBlock Text="{Binding LineOne}" Foreground="Black" Margin="30,0,0,0"/>
+                <TextBlock Text="{Binding LineTwo}" Foreground="Black" Height="244" MaxWidth="362" TextWrapping="Wrap" Margin="20,0,1,0"/>
             </StackPanel>
 
         </StackPanel>
